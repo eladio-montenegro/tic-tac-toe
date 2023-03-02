@@ -6,9 +6,9 @@ const statusDisplay = document.querySelector('.game--status');
 let gameActive = true;
 let currentPlayer = "X";
 let gameState = ["", "", "", "", "", "", "", "", ""];
-const winningMessage = () => `Player ${currentPlayer} has won!`;
-const drawMessage = () => `Game ended in a draw!`;
-const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
+const winningMessage = () => `Gano ${currentPlayer}!`;
+const drawMessage = () => `Empataron! Nadie gano!`;
+const currentPlayerTurn = () => `Sigue la ${currentPlayer}`;
 /*
 We set the inital message to let the players know whose turn it is
 */
