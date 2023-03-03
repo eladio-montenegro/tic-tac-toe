@@ -1,24 +1,34 @@
 body {
-    font-family: "Georgia", serif;
+    font-family: "Comic Sans MS";
     background-color: lightseagreen;
 }
 section {
     text-align: center;
 }
+button {
+    padding: 15px 25px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: "Comic Sans MS";
+}
+
+.game--title {
+    font-size: 50px;
+}
 .game--container {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    width: 606px;
-    margin: 50px auto;
+    width: 459px;
+    margin: 25px auto;
     background-color: white;
 }
 .cell {
-    font-family: "Georgia", serif;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     box-shadow: 0 0 0 1px #333333;
     border: 1px solid #333333;
     cursor: pointer;
-line-height: 200px;
+    line-height: 150px;
     font-size: 80px;
 }
+
